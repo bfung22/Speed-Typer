@@ -5,9 +5,9 @@ const changeTextButton = document.querySelector("#change-text");
 const resetButton = document.querySelector("#reset");
 const theTimer = document.querySelector(".timer");
 
-var timer = [0,0,0,0];
-var interval;
-var timerRunning = false;
+let timer = [0,0,0,0];
+let interval;
+let timerRunning = false;
 
 function leadingZero(time) {
     if (time <= 9) {
